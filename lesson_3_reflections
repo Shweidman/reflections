@@ -11,19 +11,23 @@ You might add changes to the remote that you don't yet want to "finalize" by add
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A branch is creating a new path of commits off of an existing repository.
+A clone is creating a local copy of a new reposity.
+A fork is just a clone on GitHub.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+So you have it on your machine where it is not likely to get lost. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Without Git or GitHub it would be hard to keep track of the different changes people made.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Keeping things in the master reduces the chance that you make a mistake just due to 
+coordination costs, but using branches allows you to change more and be more
+exploratory with your coding. 
